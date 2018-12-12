@@ -55,8 +55,9 @@ h1,h2{
 }
 
 .leftBanerLogoBox h2{
-  font-family: 'Charmonman', cursive;
-  font-size:1.25vw;
+  color:rgb(75,86,71);
+  font-family: 'Tangerine', cursive;
+  font-size:2.25vw;
 }
 
 .logo{
@@ -74,17 +75,16 @@ h1,h2{
   width: 7.77vw;
   flex-direction: column;
   text-align: center;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Anaheim', sans-serif;
 }
 
 .portfolioBox a{
-  font-family: 'Crimson Text', serif;
+  font-family: 'Anaheim', sans-serif;
   font-weight: 100;
   font-size: 1.26vw;
   color:black;
   text-decoration: none;
-  letter-spacing: 210%;
-  margin: -0.2vw;
+  letter-spacing: 0.2vw;
 }
 
 .portfolioBox a:hover{
@@ -96,6 +96,10 @@ h1,h2{
   width: 2.59vw;
   margin-top: 3.5vw;
   margin-right: 3vw;
+}
+
+.burgerBox:hover{
+  cursor: pointer;
 }
 
 .burgerBox div{
@@ -165,4 +169,126 @@ h1,h2{
 
 .centerTextBox p:nth-child(3){
   width: 36.81vw;
+}
+
+.rightBanerBox{
+  position: absolute;
+  height: 71.48vw;
+  width: 12.22vw;
+  right: 0px;
+  top:0px;
+  background-color: rgb(255,255,255,0.5);
+  outline: 2px solid white;
+  outline-offset: 0.59vw;
+  transition: 1s;
+}
+
+.rightBanerBox:hover{
+  background-color: rgb(255,255,255,1);
+}
+
+.rightBanerTextBox{
+  color:rgb(85,85,85);
+  font-family: 'Anaheim', sans-serif;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  margin-left: 0.74vw;
+  line-height: 160%;
+}
+
+.rightBanerPicOne{
+  width: 8.88vw;
+  height: 11.85vw;
+  background-image: url('img/rightBaner/picOne.png');
+  background-size: 100% 100%;
+  margin-left: 1.48vw;
+  margin-top: 2.37vw;
+}
+
+.rightBanerPicTwo{
+  width: 8.88vw;
+  height: 11.85vw;
+  background-image: url('img/rightBaner/picTwo.png');
+  background-size: 100% 100%;
+  margin-left: 1.48vw;
+  margin-top: 0.66vw;
+}
+
+.rightBanerPicThree{
+  width: 8.88vw;
+  height: 13.33vw;
+  background-image: url('img/rightBaner/picThree.png');
+  background-size: 100% 100%;
+  margin-left: 1.48vw;
+  margin-top: 0.66vw;
+}
+
+.rightBanerPicFour{
+  width: 8.88vw;
+  height: 5.77vw;
+  background-image: url('img/rightBaner/picFour.png');
+  background-size: 100% 100%;
+  margin-left: 1.48vw;
+  margin-top: 0.66vw;
+}
+
+.rightBanerPicFive{
+  width: 8.88vw;
+  height: 14.88vw;
+  background-image: url('img/rightBaner/picFive.png');
+  background-size: 100% 100%;
+  margin-left: 1.48vw;
+  margin-top: 0.66vw;
+}
+
+main{
+  height: 94.88vw;
+  background-color:var(--colorTriangles);
+}
+
+.heyThereBox{
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  height: 71.25vw;
+  width: 88.52vw;
+  right:0px;
+  border-left: 0.88vw solid rgb(197,181,158);
+  box-shadow: 13px 11px 69px 0px rgba(0,0,0,0.75);
+}
+
+.gradientBox{
+  border: 1px solid red;
+  height: 71.25vw;
+  width: 9.55vw;
+  background-image: linear-gradient(90deg, rgb(214,202,191), rgb(248,241,233,0.75));
+}
+
+.gradientLogoBox{
+  border: 1px solid blue;
+  height: 11.85vw;
+  width: 100%;
+  font-size: 0.9vw;
+}
+
+.gradientBoxText{
+  border:1px solid green;
+}
+
+.gradientBoxText p{
+  font-size: 0.9vw;
+  font-family: 'Anaheim', sans-serif;
+  writing-mode:tb-rl;
+  letter-spacing: 0.14vw;
+  font-weight: 300;
+  color:rgb(189,180,172);
+  margin-left:3.85vw;
+}
+
+.socialMedia{
+  border: 1px solid purple;
+  height: 10vw;
+  width: 2.37vw;
+  margin-left:2.4vw;
+  margin-top: 8.07vw;
 }
