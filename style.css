@@ -63,19 +63,21 @@ h1,h2{
   color:rgb(75,86,71);
   font-family: 'Tangerine', cursive;
   font-size:2.25vw;
+  font-weight: 550;
 }
 
 .logo{
   margin-top: 2vw;
-  background-color: yellow;
-  opacity: 0.8;
+  background-image:url('img/LogoOne.png');
+  background-size: 99% 99%;
   width: 5.92vw;
   height: 5.92vw;
-  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 1vw;
 }
 
 .portfolioBox{
-  margin-top: 5.2vw;
+  margin-top: 4.2vw;
   display: flex;
   width: 7.77vw;
   flex-direction: column;
@@ -273,12 +275,21 @@ main{
 }
 
 .gradientLogoBox{
+  position: relative;
   height: 11.85vw;
   width: 100%;
   font-size: 0.9vw;
 }
 
-.gradientBoxText{
+.logoTwo{
+position: absolute;
+margin-top: 2.07vw;
+margin-left: 1.85vw;
+background-image:url('img/LogoTwo.png');
+background-size: 99% 99%;
+width: 5.92vw;
+height: 5.92vw;
+border-radius: 50%;
 }
 
 .gradientBoxText p{
@@ -436,4 +447,6 @@ main{
   left:-7vw;
   font-size: 3vw;
   margin-bottom: 1vw;
+  font-family: 'Tangerine';
+  color:red;
 }
