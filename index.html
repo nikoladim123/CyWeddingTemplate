@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -28,9 +29,9 @@
       </div>
       <div class="centerBox">
         <div class="centerTextBox">
-          <p>REDEFINING</p>
-          <p>WEDDING</p>
-          <p>PHOTOGRAPHY </p>
+          <p data-aos="fade-left">REDEFINING</p>
+          <p data-aos="fade-right" data-aos-delay="100">WEDDING</p>
+          <p data-aos="fade-left" data-aos-delay="250">PHOTOGRAPHY </p>
         </div>
       </div>
       <div class="rightBanerBox">
@@ -104,5 +105,9 @@
       </div>
       <p class="bottomServices">S e r v i c e s</p>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
