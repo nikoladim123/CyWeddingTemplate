@@ -149,7 +149,19 @@ h1,h2{
   }
   100% {
     outline-offset: 0.7vw;
-    background-color: rgb(255,255,255,0.6)
+    background-color: rgb(255,255,255,0.5)
+  }
+}
+
+@keyframes whiteTriangleAnim{
+  0%{
+    opacity: 0;
+  }
+  70%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0.4;
   }
 }
 
@@ -161,11 +173,25 @@ h1,h2{
   margin-top: 37.03vw;
   width: 25vw;
   height: 25vw;
-  background-color:rgb(255,255,255,0.6);
+  background-color:rgb(255,255,255,0.5);
   transform: rotate(45deg);
   outline: 2px solid white;
   outline-offset: 0.7vw;
   animation: 2s ease-in myAnim;
+}
+
+.whiteTriangle{
+  position: absolute;
+  margin-top: 2.7vw;
+  margin-left: 16vw;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+  border: 9vw solid transparent;
+  border-top: 9vw solid rgb(255,255,255,0.4);
+  transform: rotate(-45deg);
+  animation-name: whiteTriangleAnim;
+  animation-duration: 2s;
 }
 
 .centerBox::after{
