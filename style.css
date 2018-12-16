@@ -177,7 +177,7 @@ h1,h2{
   transform: rotate(45deg);
   outline: 2px solid white;
   outline-offset: 0.7vw;
-  animation: 2s ease-in myAnim;
+  animation: 1.5s ease-in myAnim;
 }
 
 .whiteTriangle{
