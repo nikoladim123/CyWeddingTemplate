@@ -14,7 +14,7 @@ body{
 
 header{
   overflow: hidden;
-  background-image: url('img/coverBackground.png');
+  background-image: url('img/coverBackground.jpg');
   height: 71.48vw;
   background-size: 100% 100%;
 }
@@ -258,7 +258,7 @@ h1,h2{
 .rightBanerPicOne{
   width: 8.88vw;
   height: 11.85vw;
-  background-image: url('img/rightBaner/picOne.png');
+  background-image: url('img/rightBaner/picOne.jpg');
   background-size: 100% 100%;
   margin-left: 1.48vw;
   margin-top: 2.37vw;
@@ -267,7 +267,7 @@ h1,h2{
 .rightBanerPicTwo{
   width: 8.88vw;
   height: 11.85vw;
-  background-image: url('img/rightBaner/picTwo.png');
+  background-image: url('img/rightBaner/picTwo.jpg');
   background-size: 100% 100%;
   margin-left: 1.48vw;
   margin-top: 0.66vw;
@@ -276,7 +276,7 @@ h1,h2{
 .rightBanerPicThree{
   width: 8.88vw;
   height: 13.33vw;
-  background-image: url('img/rightBaner/picThree.png');
+  background-image: url('img/rightBaner/picThree.jpg');
   background-size: 100% 100%;
   margin-left: 1.48vw;
   margin-top: 0.66vw;
@@ -285,7 +285,7 @@ h1,h2{
 .rightBanerPicFour{
   width: 8.88vw;
   height: 5.77vw;
-  background-image: url('img/rightBaner/picFour.png');
+  background-image: url('img/rightBaner/picFour.jpg');
   background-size: 100% 100%;
   margin-left: 1.48vw;
   margin-top: 0.66vw;
@@ -294,7 +294,7 @@ h1,h2{
 .rightBanerPicFive{
   width: 8.88vw;
   height: 14.88vw;
-  background-image: url('img/rightBaner/picFive.png');
+  background-image: url('img/rightBaner/picFive.jpg');
   background-size: 100% 100%;
   margin-left: 1.48vw;
   margin-top: 0.66vw;
@@ -488,7 +488,7 @@ border-radius: 50%;
 .dogPicture{
   width:44.44vw ;
   height:44.44vw ;
-  background-image: url("img/dogPic.png");
+  background-image: url("img/dogPic.jpg");
   background-size: 100% 100%;
   margin-top: 4vw;
 }
