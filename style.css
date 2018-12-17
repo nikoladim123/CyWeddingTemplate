@@ -8,6 +8,14 @@
   src: url('fonts/Anaheim.ttf') format('truetype');
 }
 
+::-webkit-scrollbar {
+  width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(216,201,172);
+}
+
 body{
   overflow-x:hidden;
   margin: 0;
