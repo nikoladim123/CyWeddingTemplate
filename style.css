@@ -119,7 +119,7 @@ h1,h2{
   display: block;
   width: 100%;
   background-color:var(--colorBurger);
-  height: 3px;
+  height: 1.7px;
   margin: 0.37vw;
   overflow: hidden;
 }
@@ -238,7 +238,7 @@ h1,h2{
   width: 12.22vw;
   right: 0px;
   top:0px;
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(255,255,255,0.8);
   outline: 2px solid white;
   outline-offset: 0.59vw;
   transition: 1s;
