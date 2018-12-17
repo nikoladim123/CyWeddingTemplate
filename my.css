@@ -1,7 +1,7 @@
 .hover-reveal {
 	position: fixed;
- 	width: 10.88vw;
- 	height: 13.85vw;/* pic size*/
+  width: 8.28vw;
+  height: 12.85vw;/* pic size*/
 	top: 0;
 	left: 0;
 	pointer-events: none;
