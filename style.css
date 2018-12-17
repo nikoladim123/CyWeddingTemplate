@@ -146,6 +146,7 @@ h1,h2{
   left: -37.55vw;
   margin-top: 10.2vw;
   z-index: 3;
+  transition: 2s;
 }
 
 @keyframes myAnim {
@@ -316,6 +317,7 @@ main{
   width: 100%;
   position: relative;
   border-bottom: 3.85vw solid white;
+  transition: 2s;
 }
 
 .heyThereBox{
