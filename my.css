@@ -1,0 +1,65 @@
+.hover-reveal {
+	position: fixed;
+ 	width: 10.88vw;
+ 	height: 13.85vw;/* pic size*/
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	opacity: 0;
+	margin-left:-8.88vw; /*ON HOVER IMAGE POSITION*/
+	z-index: 5;
+}
+
+.hover-reveal__inner,
+.hover-reveal__img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.hover-reveal__deco {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #181314;
+}
+
+.hover-reveal__img {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+
+
+.rightBanerPicOne a{
+  display: block;
+  width: 8.88vw;
+  height: 11.85vw;
+}
+
+.rightBanerPicTwo a{
+  display: block;
+  width: 8.88vw;
+  height: 11.85vw;
+}
+
+.rightBanerPicThree a{
+  display: block;
+  width: 8.88vw;
+  height: 13.33vw;
+}
+
+.rightBanerPicFour a{
+  display: block;
+  width: 8.88vw;
+  height: 5.77vw;
+}
+
+.rightBanerPicFive a{
+  display: block;
+  width: 8.88vw;
+  height: 14.88vw;
+}

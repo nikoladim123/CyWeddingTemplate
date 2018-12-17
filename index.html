@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="my.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
@@ -41,11 +42,11 @@
         <div class="rightBanerTextBox">
           <h2>PRODUCTS <br> RECOMMEND-<br>ATIONS</h2>
         </div>
-        <div class="rightBanerPicOne"></div>
-        <div class="rightBanerPicTwo"></div>
-        <div class="rightBanerPicThree"></div>
-        <div class="rightBanerPicFour"></div>
-        <div class="rightBanerPicFive"></div>
+        <div class="rightBanerPicOne" data-fx="8"><a data-img="img/rightBaner/picOne.jpg"></a></div>
+        <div class="rightBanerPicTwo" data-fx="9"><a data-img="img/rightBaner/picTwo.jpg"></a></div>
+        <div class="rightBanerPicThree" data-fx="4"><a data-img="img/rightBaner/picThree.jpg"></a></div>
+        <div class="rightBanerPicFour" data-fx="3"><a data-img="img/rightBaner/picFour.jpg"></a></div>
+        <div class="rightBanerPicFive" data-fx="5"><a data-img="img/rightBaner/picFive.jpg"></a></div>
       </div>
     </header>
     <main>
@@ -108,9 +109,15 @@
       </div>
       <p class="bottomServices">S e r v i c e s</p>
     </main>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- animation on scroll script-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <!-- Hover animation script -->
+  <script src="js/charming.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/demo.js"></script>
   </body>
 </html>
